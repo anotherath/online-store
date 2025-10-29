@@ -6,7 +6,7 @@ import FacebookIcon from "../icons/FacebookIcon";
 export default function Footer() {
   return (
     <footer className=" bg-white">
-      <hr className="border-neutral-300" />
+      <hr className="border-neutral-200" />
       <div className="container mx-auto py-16 px-8 grid grid-cols-3 gap-10">
         <div className="col-span-1">
           <h4 className="mb-4 font-bold">Links</h4>
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <hr className="border-neutral-300" />
+      <hr className="border-neutral-200" />
       <div className="container mx-auto py-6 px-8 flex justify-between">
         <p className="font-light text-xs">© 2025 LUMEN</p>
         <p className="font-light text-xs">Build by anotherath x Mike Bui</p>
