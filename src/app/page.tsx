@@ -1,3 +1,4 @@
+import AboutSection from "@/components/home/AboutSection";
 import BlogSection from "@/components/home/BlogSection";
 import FeaturedSection from "@/components/home/FeaturedSection";
 import HeroSection from "@/components/home/HeroSection";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <FeaturedSection />
       <ShopSection />
+      <AboutSection />
       <LookbookSection />
       <BlogSection />
     </div>
